@@ -9,3 +9,7 @@ function mooncakeSays(message) {
 }
 
 module.exports.mooncakeSays = mooncakeSays;
+function sum(a,b){
+  return a+b
+}
+module.exports.sum = sum
