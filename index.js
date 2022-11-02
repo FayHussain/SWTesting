@@ -13,3 +13,5 @@ function sum(a,b){
   return a+b
 }
 module.exports.sum = sum
+let x = 1;
+console.log(x);
