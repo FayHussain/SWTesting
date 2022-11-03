@@ -16,4 +16,7 @@ module.exports.sum = sum
 let x = 1;
 console.log(x);
 
-
+module.exports.mooncakeSays = mooncakeSays;
+function Subtract(a,b){
+  return a-b
+}
