@@ -16,15 +16,4 @@ module.exports.sum = sum
 let x = 1;
 console.log(x);
 
-var x = 6; // x is global
-var y = 4; // y is global
 
-function add (a, b) { 
-  var x = a + b;  
-  return x;       
-}
-
-function add (a, b) {
-  x = a + b;  
-  return x;   
-}
