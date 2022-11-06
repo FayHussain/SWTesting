@@ -19,3 +19,6 @@ console.log(x);
 function Subtract(a,b){
   return a-b
 }
+function product(p1, p2) {
+  return p1 * p2;
+}
