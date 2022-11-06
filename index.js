@@ -19,3 +19,10 @@ console.log(x);
 function Subtract(a,b){
   return a-b
 }
+function product(p1, p2) {
+  return p1 * p2;
+}
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+}
+document.getElementById("demo").innerHTML = toCelsius(77);
